@@ -1,0 +1,39 @@
+.mainDiv{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.backgroundDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.background{
+    width: 90%;
+    max-width: 500px;
+    aspect-ratio: 16/9;
+    border-radius: 10px 10px 0 0;
+}
+.btnWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn{
+    padding: 10px;
+    font-size: 20px;
+}
+.input{
+    height: 46px;
+}
+
