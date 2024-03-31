@@ -1,8 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
-import colorSlice from './features/colorSlice'
+import counterSlice from './features/counterSlice'
 
-export const store = configureStore({
+
+const store = configureStore({
     reducer: {
-      "changeColor" : colorSlice
-    },
-  })
+        "counter": counterSlice
+    }
+})
+
+export default store
